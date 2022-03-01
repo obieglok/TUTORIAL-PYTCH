@@ -22,8 +22,24 @@ class WhiteKey(pytch.Sprite):
         "A2.png",
         "B2.png",
     ]
-    Sounds = ["C6Sound.mp3"]
-    SoundNames = ["C6Sound"]
+    Sounds = [
+        "C6Sound.mp3",
+        "D6Sound.mp3",
+        "E6Sound.mp3",
+        "F6Sound.mp3",
+        "G6Sound.mp3",
+        "A6Sound.mp3",
+        "B6Sound.mp3",
+    ]
+    SoundNames = [
+        "C6Sound",
+        "D6Sound",
+        "E6Sound",
+        "F6Sound",
+        "G6Sound",
+        "A6Sound",
+        "B6Sound",
+    ]
 
     @pytch.when_green_flag_clicked
     def start(self):
